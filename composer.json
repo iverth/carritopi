@@ -1,0 +1,14 @@
+{
+    "name": "usuario/carrito_pi",
+    "description": "Carrito de compras de PI",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            
+            "App\\":"./",
+            "Controllers\\": "./controllers",
+            "Models\\": "./models"
+        }
+    }
+}
